@@ -12,8 +12,7 @@ def isHappy(n):\n\
         seen.add(n)\n\
         n = sum(int(digit) ** 2 for digit in str(n))\n\
     return True\n\
-\
-if 1 <= n <= 2**31 - 1:\n\
-    print(isHappy(19))\n\
-    print(isHappy(2))\n\
+\n\
+print(isHappy(19))\n\
+print(isHappy(2))\n\
 "]
